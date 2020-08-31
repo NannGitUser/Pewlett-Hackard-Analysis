@@ -1,4 +1,4 @@
-# Pewlett-Hackard-Analysis (Taken in the late 1970s?)
+# Pewlett-Hackard-Analysis (Taken in the mid 1980s)
 
 ## Our Aging Engineer Workforce
 
