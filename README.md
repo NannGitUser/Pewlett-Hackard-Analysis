@@ -1,4 +1,4 @@
-# Pewlett-Hackard-Analysis (Taken in the mid 1980s?)
+# Pewlett-Hackard-Analysis
 
 ## Our Aging Engineer Workforce
 
@@ -19,4 +19,5 @@ This works, but could be simplified. We have not went in and created a simpler d
 * Our mentorship program can help alleviate this, but only if we expand the eligibility.
 * Our employee database is inefficient for common queries and we need to scrub two databases and create separate database for historic queries. 
 
-
+### Notes
+The wording for the challenges were a bit confusing. I kept checking the instructions word for word. The query for retiring employees (retiring_titles.csv) is supposed to be taken from our previous retirement titles query, which consists of employees born from 1952-1955. It would've made more sense you were to use the employees table and take people born from 1955 to 1965 (people that were going to be retire after the list). Seeing as you were going looking for a summarized table instead of a list like the previous query, it sort of makes sense. I really wish the writing was more clear. 
