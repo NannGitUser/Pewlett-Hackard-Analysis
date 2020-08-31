@@ -7,14 +7,16 @@ Our company is aging rapidly. Overall, we have approximately 65 thousand employe
 
 Pewlett-Hackard has a very limited mentorship program. Employees who born in 1965 are eligible for this program. That totals to about 3,100 employees. We believe we should increase the eligibility for mentorship in order to effectively replace our aging workforce. If we expand the eligibility to Employees born 1963 and 1964, we would increase the eligibility by over 40 thousand. That is more than enough to cover our future retirees. We need new employees and new ideas. 
 
-## What we addressed
-* The overall numbers of our aging boomer workforce.
-* We are set to lose our core engineers within the next few years.
-* Our mentorship program can help alleviate this.
-* We need to expand the eligibility of this mentorship program. 
-
-## Further analysis
+## database analysis
 Our database is very limited. This is likely due to the fractured nature of adding data. Here is how is looks right now. 
 ![Employee Database Structure](https://github.com/NannGitUser/Pewlett-Hackard-Analysis/blob/master/Employee%20Database.png)
 
 This works, but could be simplified. We have not went in and created a simpler database structure for more popular queries. I had to submit tiered SQL query to attain the latest job title for each employee. It would be much simpler to scrub the title and salary database to only show current title and salary. We would put past titles and salaries in a separate history database. When we query an employee we want their current title and salary only. We can always do a special query if we want to know an employee's past title. 
+
+## What we addressed
+* The overall numbers of our aging boomer workforce.
+* We are set to lose our core engineers within the next few years.
+* Our mentorship program can help alleviate this, but only if we expand the eligibility.
+* Our employee database is inefficient for common queries and we need to scrub two databases and create separate database for historic queries. 
+
+
